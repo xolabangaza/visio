@@ -7,7 +7,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* background: blue; */
 }
 
 .navbar-toggle {
@@ -34,7 +33,7 @@
     background-image: url('https://i.ibb.co/MyTYwGy/stock-market-background-hc6p0ln57y4sjujx.jpg');
     background-repeat: no-repeat;
     margin-left: 80px;
-    /* margin-top: 100px; */
+  
 }
 
 .slider-btn {
@@ -58,7 +57,7 @@
 .black {
     position: absolute;
     top: 50%;
-    /* z-index: 1; */
+    z-index: 1;
     right: 2px;
     transform: translateY(-50%);
     background: #000000;
@@ -73,12 +72,19 @@
     font-weight: 600;
 }
 
-.prev-btn {
-    left: 120px;
-    
-}
 
 .next-btn {
     right: 120px;
     font-weight: lighter;
+}
+.phase2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: 80px;
+}
+.pic{
+    width: 40%;
+    height: 60px;
+    
 }
