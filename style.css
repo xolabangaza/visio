@@ -37,21 +37,24 @@
 }
 
 .slider-btn {
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 62px;
+    font-size: 50px;
     cursor: pointer;
     color: gray;
 }
 
 .blue {
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgb(38, 86, 245);
+    background: #244ac2;
     height: 60px;
     width: 400px;
+    font-size: 16px;
 }
 
 .black {
@@ -82,17 +85,20 @@
     margin-top: 55px;
     margin-left: 110px;
     margin-right: 80px;
+    
 }
 .phase2,p{
     font-family: 'Open Sans', sans-serif;
 }
 .pic{
-    width: 40%;
-    height: 60px;
+    margin-left: 24git ad0px;
+    
     
 }
+
 .phase3{
-    margin: 100px;
+    margin-inline: 100px;
+    margin-top: 40px;
     display: flex;
     color: white;
     text-align: start;
@@ -124,6 +130,60 @@ span{
     text-align: left;
     line-height: 33px;
     margin-left: 20px;
+    font-weight: bold;
     
 
+}
+img{
+    height: 60px;
+    margin-top: 30px;
+}
+
+.one{
+    background-color: #244ac2;
+    width: 130px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+.two{
+    background-color: #244ac2;
+    width: 110px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+
+.three{
+    background-color: #244ac2;
+    width: 200px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+
+.four{
+    background-color: #244ac2;
+    width: 130px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+
+.five{
+    background-color: #244ac2;
+    width: 150px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+
+.six{
+    background-color: #244ac2;
+    width: 150px;
+    height: 25px;
+    /* margin-left: 60px; */
+}
+
+.phase4{
+    display: flex;
+    margin-top: 30px;
+    margin-inline: 80px;
+    justify-content: space-around;
+    
 }
