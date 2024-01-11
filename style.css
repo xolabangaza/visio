@@ -141,43 +141,44 @@ img{
 
 .one{
     background-color: #244ac2;
-    width: 130px;
+    width: 180px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
 }
 .two{
     background-color: #244ac2;
-    width: 110px;
+    width: 180px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
 }
 
 .three{
     background-color: #244ac2;
-    width: 200px;
+    width: 240px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
 }
 
 .four{
     background-color: #244ac2;
-    width: 130px;
+    width: 180px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
 }
 
 .five{
     background-color: #244ac2;
-    width: 150px;
+    width: 200px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
 }
 
 .six{
     background-color: #244ac2;
-    width: 150px;
+    width: 200px;
     height: 25px;
-    /* margin-left: 60px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .phase4{
