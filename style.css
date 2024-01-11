@@ -102,6 +102,7 @@
     display: flex;
     color: white;
     text-align: start;
+    font-size: 10px;
       
     
     
@@ -110,6 +111,7 @@
     background-color: #061c2c;
     width: 360px;
     height: 200px;
+    
     
 }
 .visio2{
@@ -143,42 +145,47 @@ img{
     background-color: #244ac2;
     width: 180px;
     height: 25px;
-    margin-right: 10px;
+    margin-inline: 20px;
+
 }
 .two{
     background-color: #244ac2;
-    width: 180px;
+    width: 160px;
     height: 25px;
     margin-right: 10px;
 }
 
 .three{
     background-color: #244ac2;
-    width: 240px;
+    width: 200px;
     height: 25px;
     margin-right: 10px;
 }
 
 .four{
     background-color: #244ac2;
-    width: 180px;
+    width: 170px;
     height: 25px;
     margin-right: 10px;
 }
 
 .five{
     background-color: #244ac2;
-    width: 200px;
+    width: 160px;
     height: 25px;
     margin-right: 10px;
 }
 
 .six{
     background-color: #244ac2;
-    width: 200px;
+    width: 160px;
     height: 25px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+.phase4, p{
+    margin-inline: 20px;
+    margin-block: 4px;
 }
 
 .phase4{
@@ -186,5 +193,55 @@ img{
     margin-top: 30px;
     margin-inline: 80px;
     justify-content: space-around;
+    color: white;
+    font-size: 12px;
     
+}
+.img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 240px;
+    bottom: -368px;
+}
+.img2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 430px;
+    bottom: -368px;  
+}
+.img3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 640px;
+    bottom: -368px;  
+}
+.img4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 820px;
+    bottom: -368px;  
+}
+.img5{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    right: 300px;
+    bottom: -368px;  
+}
+.img6{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    bottom: -368px;  
 }
