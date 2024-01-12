@@ -143,28 +143,29 @@ img{
 
 .one{
     background-color: #244ac2;
-    width: 180px;
+    width: 170px;
     height: 25px;
-    margin-inline: 20px;
+    margin-inline: 8px;
 
 }
 .two{
     background-color: #244ac2;
     width: 160px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 36px;
 }
 
 .three{
     background-color: #244ac2;
-    width: 200px;
+    width: 180px;
     height: 25px;
     margin-right: 10px;
+    
 }
 
 .four{
     background-color: #244ac2;
-    width: 170px;
+    width: 130px;
     height: 25px;
     margin-right: 10px;
 }
@@ -202,32 +203,32 @@ img{
     height: 20px;
     position: absolute;
     z-index: 1;
-    left: 240px;
-    bottom: -368px;
+    left: 244px;
+    bottom: -363px;
 }
 .img2{
     width: 20px;
     height: 20px;
     position: absolute;
     z-index: 1;
-    left: 430px;
-    bottom: -368px;  
+    left: 440px;
+    bottom: -363px;  
 }
 .img3{
     width: 20px;
     height: 20px;
     position: absolute;
     z-index: 1;
-    left: 640px;
-    bottom: -368px;  
+    left: 670px;
+    bottom: -363px;  
 }
 .img4{
     width: 20px;
     height: 20px;
     position: absolute;
     z-index: 1;
-    left: 820px;
-    bottom: -368px;  
+    left: 840px;
+    bottom: -363px;  
 }
 .img5{
     width: 20px;
@@ -235,13 +236,13 @@ img{
     position: absolute;
     z-index: 1;
     right: 300px;
-    bottom: -368px;  
+    bottom: -363px;  
 }
 .img6{
     width: 20px;
     height: 20px;
     position: absolute;
     z-index: 1;
-    right: 100px;
-    bottom: -368px;  
+    right: 108px;
+    bottom: -363px;  
 }
