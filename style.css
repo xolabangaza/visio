@@ -26,16 +26,8 @@
     margin-left: 6.25rem;
 }
 
+/* START OF SLIDER */
 
-/* #slider{
-    width: 88%;
-    height: 70vh;
-    background-image: url('https://i.ibb.co/MyTYwGy/stock-market-background-hc6p0ln57y4sjujx.jpg');
-    background-repeat: no-repeat;
-    margin-left: 5rem;
-  
-} */
- /* Styles for the slider container and slides */
  .slider-container {
     position: relative;
     overflow: hidden;
@@ -55,27 +47,15 @@
     box-sizing: border-box;
 }
 
-/* Styles for navigation buttons */
-/* .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none;
-} */
-
-
 
 .slider-btn {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 55%;
     transform: translateY(-50%);
-    font-size: 4.125rem;
+    font-size: 6.125rem;
+    font-weight: lighter;
     cursor: pointer;
     color: gray;
     font-weight: lighter;
@@ -117,6 +97,33 @@
     right: 7.5rem;
     font-weight: lighter;
 }
+
+.dot-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 4%;
+    right: 10px;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    border: 2px solid white;
+}
+
+/* END OF SLIDER */
+
+/* START OF THE SECOND PART */
 .phase2{
     display: flex;
     margin-top: 3.4375rem;
@@ -132,6 +139,9 @@
     
     
 }
+/* END OF THE SECOND PART */
+
+/* START OF THE LAST PART */
 
 .phase3{
     margin-inline: 6.25rem;
@@ -291,51 +301,39 @@ img{
 }
 
 
-.dot-container {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 1;
-    bottom: 4%;
-    right: 10px;
-    /* margin-top: 1rem; Adjust as needed */
-}
-
-.dot {
-    width: 16px;
-    height: 16px;
-    background-color: transparent;
-    border: 2px solid gray;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.dot.active {
-    border: 2px solid white;
-}
 
 
-
+/* RESPONSIVENESS */
 
 @media only screen and (max-width: 1200px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar-toggle {
-        margin-top: 1rem;
-    }
-
-    .logo {
+     .logo {
         margin-left: 0;
         margin-top: 1rem;
+    }
+    .navbar-toggle {
+        margin-left: 5rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
      .slider-btn {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        top: 33%;
+        margin-right: 200px;
+    }
+    .blue{
+        width: 40%;
+        font-size: 10px;
+        top: 35%;
+    }
+    .black{
+        width: 6%;
+        top: 35%;
+    }
+    .dot-container{
+        top: 47%;
+    }
+    .slider-container {
+        margin-bottom: 0;
     }
 }

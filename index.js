@@ -9,10 +9,6 @@ $(document).ready(function () {
         updateSlider();
     });
 
-    $('.prev-btn').on('click', function () {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        updateSlider();
-    });
 
     function updateSlider() {
         const translateValue = -100 * currentIndex + '%';
