@@ -56,7 +56,7 @@
 }
 
 /* Styles for navigation buttons */
-.prev-btn, .next-btn {
+/* .next-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -65,28 +65,27 @@
     background: none;
     border: none;
     outline: none;
-}
+} */
 
-.prev-btn {
-    left: 10px;
-}
 
-.next-btn {
-    right: 10px;
-}
-/* .slider-btn {
+
+.slider-btn {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    top: 50%;
+    left: 95%;
+    top: 55%;
     transform: translateY(-50%);
-    font-size: 3.125rem;
+    font-size: 4.125rem;
     cursor: pointer;
     color: gray;
-} */
+    font-weight: lighter;
+    
+}
 
 .blue {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
+    z-index: 1;
     top: 50%;
     transform: translateY(-50%);
     background: #244ac2;
@@ -180,10 +179,10 @@ img{
 }
 
 .photo {
-    width: 100%; /* Make sure images take the full width of the slide */
+    width: 100%; 
     height: 100%; 
     object-fit: cover; 
-    margin-left: 20px;
+    
 }
 .one{
     background-color: #244ac2;
@@ -289,4 +288,54 @@ img{
     z-index: 1;
     right: 6.75rem;
     bottom: -22.6875rem;  
+}
+
+
+.dot-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 4%;
+    right: 10px;
+    /* margin-top: 1rem; Adjust as needed */
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    border: 2px solid white;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-toggle {
+        margin-top: 1rem;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+     .slider-btn {
+        font-size: 1.5rem;
+    }
 }
